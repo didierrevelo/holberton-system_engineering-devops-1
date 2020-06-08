@@ -1,0 +1,1 @@
+this is a document for explanation of variables and expansions
