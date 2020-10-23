@@ -3,7 +3,7 @@
 counter=0
 while [ $counter -lt 13 ]
 do
-    echo "hour: $counter"
+    echo "Hour: $counter"
     min=1
     while [ $min -lt 60 ]
     do
