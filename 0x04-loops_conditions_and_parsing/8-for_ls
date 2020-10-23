@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # This script is displaying The content of the current directory
 list="$(ls)"
-for i in "$list"
+for i in "$i" "$list"
 do
     echo "$list"
 done
