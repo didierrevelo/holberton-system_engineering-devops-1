@@ -3,8 +3,8 @@
 counter=0
 while [ $counter -lt 10 ]
 do
-  echo "Holberton School $counter"
-  let counter=counter+1
+  echo "Holberton School"
+  let counter++
   if [[ "$counter" == '9' ]]; then
 		echo "Hi"
 	fi
