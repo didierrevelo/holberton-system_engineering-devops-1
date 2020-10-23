@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
-counter=1
-end=9
-while [ $end -ge $counter ]
+counter=0
+while [ $counter -lt 10 ]
 do
-  echo "Holberton School"
+  echo "Holberton School $counter"
   let counter++
   if [[ "$counter" == '9' ]]
 	then
