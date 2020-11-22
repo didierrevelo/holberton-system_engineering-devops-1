@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script is displaying "Holberton School" 10 times
+counter=1
+end=10
+until [ $end -lt $counter ]
+do
+  echo "Holberton School"
+  let counter=counter+1
+done
