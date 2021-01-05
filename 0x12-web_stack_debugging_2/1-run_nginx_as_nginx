@@ -3,4 +3,4 @@
 
 sudo chmod -R 777 /etc/nginx/nginx.conf
 sudo chown -R nginx:nginx /etc/nginx/nginx.conf
-        sudo -u nginx service nginx restart
+sudo -u nginx service nginx restart
